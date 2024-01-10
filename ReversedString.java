@@ -1,0 +1,29 @@
+public class ReversedString {
+    
+    //create constructor, initialize string, create method, write reversed string
+    //logic, create an object, call the method
+    String name;
+    
+    ReversedString(String name){
+        this.name=name;
+
+    }
+    public  void ReversedMethod(){
+       String empty = "";
+       char ch = ' ';
+        for(int i=0;i<name.length()-1;i++){
+            ch = name.charAt(i);
+            empty = empty+ch;
+
+
+        }
+        System.out.println(empty);
+        
+
+    }
+    public static void main(String[] args) {
+        Constructor6 ReversedMethod = new ReversedMethod("Apple");
+        ReversedMethod.ReversedMethod();
+        
+    }
+}
